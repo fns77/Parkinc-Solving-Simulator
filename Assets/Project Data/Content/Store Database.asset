@@ -1,0 +1,214 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7849743226bbdfc4b94365052ad63b65, type: 3}
+  m_Name: Store Database
+  m_EditorClassIdentifier: 
+  tabs:
+  - isExpanded: 0
+    uniqueId: 15.09.2023 18:22:53_763167
+    name: Cars
+    type: 0
+    previewType: 0
+    previewPrefab: {fileID: 0}
+    backgroundColor: {r: 0.79622644, g: 0.44318262, b: 0.5137913, a: 1}
+    productBackgroundColor: {r: 0.3962264, g: 0.22951227, b: 0.22951227, a: 1}
+  - isExpanded: 0
+    uniqueId: 15.09.2023 18:22:53_763167
+    name: Maps
+    type: 1
+    previewType: 0
+    previewPrefab: {fileID: 0}
+    backgroundColor: {r: 0.9924528, g: 0.7995799, b: 0.7995799, a: 0.81960785}
+    productBackgroundColor: {r: 0.6784314, g: 0.6431373, b: 0.6313726, a: 1}
+  products:
+  - uniqueId: 15.09.2023 18:23:38_276376
+    isExpanded: 0
+    id: 0
+    tabId: 0
+    isDummy: 0
+    name: Car 01
+    openedSprite: {fileID: 21300000, guid: 4fc93732c0c28664fa6cf1b8e0360344, type: 3}
+    lockedSprite: {fileID: 21300000, guid: 0bcc2dbbd3f5d21478667df17f0ce0bc, type: 3}
+    preview2DSprite: {fileID: 21300000, guid: 4fc93732c0c28664fa6cf1b8e0360344, type: 3}
+    prefab: {fileID: 4960192893629773048, guid: 08b12ae1e1713d041a5c8ad9bce2a573,
+      type: 3}
+    previewPrefab: {fileID: 0}
+    purchaseType: 0
+    currency: 0
+    cost: 0
+  - uniqueId: 16.09.2023 20:43:04_613911
+    isExpanded: 0
+    id: 1
+    tabId: 0
+    isDummy: 0
+    name: Car 02
+    openedSprite: {fileID: 21300000, guid: 7247a3863ee010a47b141784e838ee83, type: 3}
+    lockedSprite: {fileID: 21300000, guid: f1b6799c74ca14b4399c0a8110a7984e, type: 3}
+    preview2DSprite: {fileID: 21300000, guid: 7247a3863ee010a47b141784e838ee83, type: 3}
+    prefab: {fileID: 4307109214094223560, guid: 7632911c718c573468f73393c5fa20d7,
+      type: 3}
+    previewPrefab: {fileID: 0}
+    purchaseType: 0
+    currency: 0
+    cost: 100
+  - uniqueId: 29.09.2023 13:35:08_326278
+    isExpanded: 0
+    id: 2
+    tabId: 0
+    isDummy: 0
+    name: Car 03
+    openedSprite: {fileID: 21300000, guid: 2eeb0600d70d34d42816f13c9bcf1b73, type: 3}
+    lockedSprite: {fileID: 21300000, guid: 3f7b614552280e64db0ac015965384a1, type: 3}
+    preview2DSprite: {fileID: 21300000, guid: 2eeb0600d70d34d42816f13c9bcf1b73, type: 3}
+    prefab: {fileID: 4307109214094223560, guid: e3198eabc846ecb4e834bcbbf67baefb,
+      type: 3}
+    previewPrefab: {fileID: 0}
+    purchaseType: 0
+    currency: 0
+    cost: 200
+  - uniqueId: 29.09.2023 13:35:39_510655
+    isExpanded: 0
+    id: 3
+    tabId: 0
+    isDummy: 0
+    name: Car 04
+    openedSprite: {fileID: 21300000, guid: da4abf4bd6edf7246a28198f03bc812d, type: 3}
+    lockedSprite: {fileID: 21300000, guid: 4b9b19a5435522748bea9e2aa72f9f4a, type: 3}
+    preview2DSprite: {fileID: 21300000, guid: da4abf4bd6edf7246a28198f03bc812d, type: 3}
+    prefab: {fileID: 4307109214094223560, guid: 7777276911f1c06478a2bc30cd776ec3,
+      type: 3}
+    previewPrefab: {fileID: 0}
+    purchaseType: 0
+    currency: 0
+    cost: 300
+  - uniqueId: 29.09.2023 13:36:36_553396
+    isExpanded: 0
+    id: 4
+    tabId: 0
+    isDummy: 0
+    name: Car 05
+    openedSprite: {fileID: 21300000, guid: d8e69a369c56b0143bbb8a3245e58de2, type: 3}
+    lockedSprite: {fileID: 21300000, guid: 3f860a62596fd024c873f7981f1e16c8, type: 3}
+    preview2DSprite: {fileID: 21300000, guid: d8e69a369c56b0143bbb8a3245e58de2, type: 3}
+    prefab: {fileID: 4307109214094223560, guid: d828c8c552d273d40a72d188e04ef1c6,
+      type: 3}
+    previewPrefab: {fileID: 0}
+    purchaseType: 0
+    currency: 0
+    cost: 400
+  - uniqueId: 29.09.2023 13:37:02_123424
+    isExpanded: 0
+    id: 5
+    tabId: 0
+    isDummy: 0
+    name: Car 06
+    openedSprite: {fileID: 21300000, guid: 3b83689a925497846a6deb20750c30ac, type: 3}
+    lockedSprite: {fileID: 21300000, guid: 25ab6f751a89ec6408e2c4ac5f4f7a56, type: 3}
+    preview2DSprite: {fileID: 21300000, guid: 3b83689a925497846a6deb20750c30ac, type: 3}
+    prefab: {fileID: 4307109214094223560, guid: 2953e7ec2dbc4a044a5ae8c346239067,
+      type: 3}
+    previewPrefab: {fileID: 0}
+    purchaseType: 0
+    currency: 0
+    cost: 500
+  - uniqueId: 16.09.2023 20:44:45_498463
+    isExpanded: 0
+    id: 0
+    tabId: 1
+    isDummy: 0
+    name: Store Shop
+    openedSprite: {fileID: 21300000, guid: 7e1ce25800b77de4bb331f0d02c56549, type: 3}
+    lockedSprite: {fileID: 21300000, guid: 7a217d82b59a01e428c28a12d5eb6c39, type: 3}
+    preview2DSprite: {fileID: 21300000, guid: 7e1ce25800b77de4bb331f0d02c56549, type: 3}
+    prefab: {fileID: 2642736487474812538, guid: 401593f834cdcc54896d67b53c194a62,
+      type: 3}
+    previewPrefab: {fileID: 0}
+    purchaseType: 0
+    currency: 0
+    cost: 100
+  - uniqueId: 16.09.2023 21:02:36_32980
+    isExpanded: 0
+    id: 1
+    tabId: 1
+    isDummy: 0
+    name: PoliceStation
+    openedSprite: {fileID: 21300000, guid: ea700218be0329143a02b9d12fe3e8f8, type: 3}
+    lockedSprite: {fileID: 21300000, guid: f3e9eb634bb9c3d498e89d5f984bb6d1, type: 3}
+    preview2DSprite: {fileID: 21300000, guid: ea700218be0329143a02b9d12fe3e8f8, type: 3}
+    prefab: {fileID: 2642736487474812538, guid: f190e92277ff77b4f9e9d808208981e2,
+      type: 3}
+    previewPrefab: {fileID: 0}
+    purchaseType: 0
+    currency: 0
+    cost: 100
+  - uniqueId: 29.09.2023 13:37:33_986923
+    isExpanded: 0
+    id: 2
+    tabId: 1
+    isDummy: 0
+    name: TownHall
+    openedSprite: {fileID: 21300000, guid: b33ee1ab66e830f41b9151fcc02d6bcb, type: 3}
+    lockedSprite: {fileID: 21300000, guid: 3a4487b80fb544d40badef260569a366, type: 3}
+    preview2DSprite: {fileID: 21300000, guid: b33ee1ab66e830f41b9151fcc02d6bcb, type: 3}
+    prefab: {fileID: 2642736487474812538, guid: ac2e5b630a40fed40ae60035d7d58cfe,
+      type: 3}
+    previewPrefab: {fileID: 0}
+    purchaseType: 0
+    currency: 0
+    cost: 200
+  - uniqueId: 29.09.2023 13:37:55_687585
+    isExpanded: 0
+    id: 3
+    tabId: 1
+    isDummy: 0
+    name: DonutSTore
+    openedSprite: {fileID: 21300000, guid: 98153ce0fe904d84298a99a74fb99331, type: 3}
+    lockedSprite: {fileID: 21300000, guid: aa84efd28645488428789ccccb8f9fed, type: 3}
+    preview2DSprite: {fileID: 21300000, guid: 98153ce0fe904d84298a99a74fb99331, type: 3}
+    prefab: {fileID: 2642736487474812538, guid: 1215ffd2ce6e5d847b50adecb4136e40,
+      type: 3}
+    previewPrefab: {fileID: 0}
+    purchaseType: 0
+    currency: 0
+    cost: 300
+  - uniqueId: 29.09.2023 13:37:43_963089
+    isExpanded: 0
+    id: 4
+    tabId: 1
+    isDummy: 0
+    name: GasPump
+    openedSprite: {fileID: 21300000, guid: 0817d2768ad6d214b926b32bdf4ad098, type: 3}
+    lockedSprite: {fileID: 21300000, guid: 684f873628d1d1a40b0c1ae9700f8adb, type: 3}
+    preview2DSprite: {fileID: 21300000, guid: 0817d2768ad6d214b926b32bdf4ad098, type: 3}
+    prefab: {fileID: 2642736487474812538, guid: 180c7c04a1f519e4092050d3cd273d2d,
+      type: 3}
+    previewPrefab: {fileID: 0}
+    purchaseType: 0
+    currency: 0
+    cost: 400
+  - uniqueId: 29.09.2023 13:38:12_643389
+    isExpanded: 0
+    id: 5
+    tabId: 1
+    isDummy: 0
+    name: Burger
+    openedSprite: {fileID: 21300000, guid: a6781434d6217564792096cf3c8d3556, type: 3}
+    lockedSprite: {fileID: 21300000, guid: 7a1c2746ff25bda4da82ae2c4303a467, type: 3}
+    preview2DSprite: {fileID: 21300000, guid: a6781434d6217564792096cf3c8d3556, type: 3}
+    prefab: {fileID: 2642736487474812538, guid: b0f0d30c6d60c2044b9d98f0584eb466,
+      type: 3}
+    previewPrefab: {fileID: 0}
+    purchaseType: 0
+    currency: 0
+    cost: 500
+  TabTypes: 0000000001000000
+  coinsForAdsAmount: 100

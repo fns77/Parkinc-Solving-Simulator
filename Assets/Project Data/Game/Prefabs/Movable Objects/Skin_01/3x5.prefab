@@ -446,6 +446,18 @@ PrefabInstance:
       value: Car_10A
       objectReference: {fileID: 0}
     - target: {fileID: 4000010392716436, guid: afe89e60e06fe43e6b558ab480dbc64c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.85234
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010392716436, guid: afe89e60e06fe43e6b558ab480dbc64c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.86536
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010392716436, guid: afe89e60e06fe43e6b558ab480dbc64c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8812705
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010392716436, guid: afe89e60e06fe43e6b558ab480dbc64c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
       objectReference: {fileID: 0}
@@ -483,6 +495,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010392716436, guid: afe89e60e06fe43e6b558ab480dbc64c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 64000012197787506, guid: afe89e60e06fe43e6b558ab480dbc64c,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
